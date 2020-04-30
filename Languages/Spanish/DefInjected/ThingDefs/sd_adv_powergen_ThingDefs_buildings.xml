@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <sd_adv_powergen_adv_wind_turbine.label>aeroturbina avanzada</sd_adv_powergen_adv_wind_turbine.label>
+  <sd_adv_powergen_adv_wind_turbine.description>Un generador de electricidad accionado por el viento. Para conseguir un flujo de aire óptimo necesita un gran espacio libre al frente y atrás.\nSalida de energía: 6000 W (máximo).</sd_adv_powergen_adv_wind_turbine.description>
+  <sd_adv_powergen_adv_solar_generator.label>paneles solares avanzados</sd_adv_powergen_adv_solar_generator.label>
+  <sd_adv_powergen_adv_solar_generator.description>Produce electricidad gracias a la luz solar. No funcionan en la oscuridad.\nSalida de energía: 3400 W (máximo)</sd_adv_powergen_adv_solar_generator.description>
+  <sd_adv_powergen_adv_geothermal_generator.label>generador geotérmico avanzado</sd_adv_powergen_adv_geothermal_generator.label>
+  <sd_adv_powergen_adv_geothermal_generator.description>Produce electricidad a partir de los géiseres de vapor. Debe ser ubicado sobre un géiser.\nSalida de energía: 7500 W (máximo).</sd_adv_powergen_adv_geothermal_generator.description>
+  <sd_adv_powergen_nuclear_power_plant.label>generador nuclear avanzado</sd_adv_powergen_nuclear_power_plant.label>
+  <sd_adv_powergen_nuclear_power_plant.description>Produce electricidad a partir del uranio. Se puede colocar en cualquier lugar.\nSalida de energía: 20000 W.</sd_adv_powergen_nuclear_power_plant.description>
+</LanguageData>

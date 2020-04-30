@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <sd_adv_powergen_research_adv_geo.label>Energía geotérmica avanzada</sd_adv_powergen_research_adv_geo.label>
+  <sd_adv_powergen_research_adv_geo.description>Permite a los colonos construir generadores de energía geotérmica avanzados sobre los géiseres de vapor, para una mayor potencia ininterrumpida.</sd_adv_powergen_research_adv_geo.description>
+  <sd_adv_powergen_research_nuclear_power.label>Energía atómica avanzada</sd_adv_powergen_research_nuclear_power.label>
+  <sd_adv_powergen_research_nuclear_power.description>Permite a los colonos construir plantas de energía atómica avanzadas, para una mayor potencia ininterrumpida e ilimitada.</sd_adv_powergen_research_nuclear_power.description>
+  <sd_adv_powergen_research_adv_wind_turbine.label>Aeroturbina avanzada</sd_adv_powergen_research_adv_wind_turbine.label>
+  <sd_adv_powergen_research_adv_wind_turbine.description>Permite a los colonos construir turbinas eólicas avanzadas.</sd_adv_powergen_research_adv_wind_turbine.description>
+  <sd_adv_powergen_research_adv_solar.label>Panel solar avanzado</sd_adv_powergen_research_adv_solar.label>
+  <sd_adv_powergen_research_adv_solar.description>Permite a los colonos construir paneles solares avanzados.</sd_adv_powergen_research_adv_solar.description>
+</LanguageData>
