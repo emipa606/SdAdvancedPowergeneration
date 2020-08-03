@@ -2,7 +2,7 @@
 <ModSyncNinjaData>
   <ID>4bce6ffb-3867-4758-9051-7e7e544358a3</ID>
   <ModName>[sd] Advanced Powergeneration (Continued)</ModName>
-  <Version>1.0.0.0</Version>
+  <Version>1.0.1.0</Version>
   <SaveBreaking>False</SaveBreaking>
   <Host name="Github">
     <Owner>emipa606</Owner>
@@ -12,6 +12,3 @@
     <Branch>master</Branch>
   </Host>
 </ModSyncNinjaData>
-
-
-
