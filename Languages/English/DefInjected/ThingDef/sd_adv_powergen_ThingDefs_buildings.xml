@@ -1,38 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- adv wind -->
-
   <sd_adv_powergen_adv_wind_turbine.label>advanced wind turbine</sd_adv_powergen_adv_wind_turbine.label>
   <sd_adv_powergen_adv_wind_turbine.description>A wind-powered electrical generator. Requires a large clear space in front and behind for optimal air flow.
 	Energy Output: 6000 at max</sd_adv_powergen_adv_wind_turbine.description>
-
-
   <!-- adv solar -->
-
   <sd_adv_powergen_adv_solar_generator.label>advanced solar generator</sd_adv_powergen_adv_solar_generator.label>
   <sd_adv_powergen_adv_solar_generator.description>Produces electricity from sunlight. Does not work in the dark. Energy Output: 3400 at max</sd_adv_powergen_adv_solar_generator.description>
-
-
   <!-- adv geothermal -->
-
   <sd_adv_powergen_adv_geothermal_generator.label>advanced geothermal generator</sd_adv_powergen_adv_geothermal_generator.label>
   <sd_adv_powergen_adv_geothermal_generator.description>Produces electricity from geothermal steam geysers. Must be placed on a geyser.
 	Energy Output: 7500</sd_adv_powergen_adv_geothermal_generator.description>
-
-
   <!-- adv nuclear -->
-
   <sd_adv_powergen_nuclear_power_plant.label>advanced nuclear power plant</sd_adv_powergen_nuclear_power_plant.label>
   <sd_adv_powergen_nuclear_power_plant.description>Produces electricity from uranium. Can be placed anywhere.
 	Energy Output: 20000</sd_adv_powergen_nuclear_power_plant.description>
-
-
   <!-- adv water -->
-
   <sd_adv_powergen_WatermillGenerator.label>advanced watermill generator</sd_adv_powergen_WatermillGenerator.label>
   <sd_adv_powergen_WatermillGenerator.description>Produces electricity from a river. Must be placed with its wheel in moving water. If watermills are placed too close together, the turbulence they generate will interfere and reduce power generation.
 	Energy Output: 2200</sd_adv_powergen_WatermillGenerator.description>
-
-
 </LanguageData>

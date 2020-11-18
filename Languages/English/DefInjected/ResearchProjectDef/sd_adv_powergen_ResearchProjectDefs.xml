@@ -1,17 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <sd_adv_powergen_research_adv_geo.label>advanced geothermal power</sd_adv_powergen_research_adv_geo.label>
   <sd_adv_powergen_research_adv_geo.description>Allows colonists to build advanced geothermal power plants on top of steam geysers, for uninterrupted higher power..</sd_adv_powergen_research_adv_geo.description>
-
   <sd_adv_powergen_research_nuclear_power.label>advanced nuclear power</sd_adv_powergen_research_nuclear_power.label>
   <sd_adv_powergen_research_nuclear_power.description>Allows colonists to build advanced nuclear power plants anywhere, for unlimited uninterrupted unconditional power..</sd_adv_powergen_research_nuclear_power.description>
-
   <sd_adv_powergen_research_adv_wind_turbine.label>advanced wind turbine</sd_adv_powergen_research_adv_wind_turbine.label>
   <sd_adv_powergen_research_adv_wind_turbine.description>Allows colonists to build advanced wind turbines.</sd_adv_powergen_research_adv_wind_turbine.description>
-
   <sd_adv_powergen_research_adv_solar.label>advanced solar power</sd_adv_powergen_research_adv_solar.label>
   <sd_adv_powergen_research_adv_solar.description>Allows colonists to build advanced solar panels.</sd_adv_powergen_research_adv_solar.description>
-
-
 </LanguageData>
