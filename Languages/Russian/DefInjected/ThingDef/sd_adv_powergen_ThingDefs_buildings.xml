@@ -2,26 +2,32 @@
 <LanguageData>
   <!-- adv wind -->
   <sd_adv_powergen_adv_wind_turbine.label>Высокотехнологичная ветровая турбина</sd_adv_powergen_adv_wind_turbine.label>
-  <sd_adv_powergen_adv_wind_turbine.description>Генератор электроэнергии, работающий на силе ветра. Требует открытое пространство спереди и сзади для наилучшей эффективности. Энерговыработка: до 4000.</sd_adv_powergen_adv_wind_turbine.description>
+  <sd_adv_powergen_adv_wind_turbine.description>Генератор электроэнергии, работающий на силе ветра. Требует открытое пространство спереди и сзади для наилучшей эффективности.\nЭнерговыработка: до 4000.</sd_adv_powergen_adv_wind_turbine.description>
   <sd_adv_powergen_adv_wind_turbine_Blueprint.label>Высокотехнологичная ветровая турбина(проект)</sd_adv_powergen_adv_wind_turbine_Blueprint.label>
   <sd_adv_powergen_adv_wind_turbine_Blueprint_Install.label>Высокотехнологичная ветровая турбина (проект)</sd_adv_powergen_adv_wind_turbine_Blueprint_Install.label>
   <sd_adv_powergen_adv_wind_turbine_Frame.label>Высокотехнологичная ветровая турбина (постройка)</sd_adv_powergen_adv_wind_turbine_Frame.label>
   <!-- adv solar -->
   <sd_adv_powergen_adv_solar_generator.label>Высокотехнологичная солнечная панель</sd_adv_powergen_adv_solar_generator.label>
-  <sd_adv_powergen_adv_solar_generator.description>Генерирует электроэнергию из солнечного света. Не работает в темноте. Энерговыработка: до 3400.</sd_adv_powergen_adv_solar_generator.description>
+  <sd_adv_powergen_adv_solar_generator.description>Генерирует электроэнергию из солнечного света. Не работает в темноте.\nЭнерговыработка: до 3400.</sd_adv_powergen_adv_solar_generator.description>
   <sd_adv_powergen_adv_solar_generator_Blueprint.label>Высокотехнологичная солнечная панель (проект)</sd_adv_powergen_adv_solar_generator_Blueprint.label>
   <sd_adv_powergen_adv_solar_generator_Blueprint_Install.label>Высокотехнологичная солнечная панель (проект)</sd_adv_powergen_adv_solar_generator_Blueprint_Install.label>
   <sd_adv_powergen_adv_solar_generator_Frame.label>Высокотехнологичная солнечная панель (постройка)</sd_adv_powergen_adv_solar_generator_Frame.label>
   <!-- adv geothermal -->
   <sd_adv_powergen_adv_geothermal_generator.label>Высокотехнологичный геотермальный генератор</sd_adv_powergen_adv_geothermal_generator.label>
-  <sd_adv_powergen_adv_geothermal_generator.description>Генерирует электроэнергию на геотермальных паровых гейзерах. Необходимо разместить на гейзере. Энерговыработка: 7500.</sd_adv_powergen_adv_geothermal_generator.description>
+  <sd_adv_powergen_adv_geothermal_generator.description>Генерирует электроэнергию на геотермальных паровых гейзерах. Необходимо разместить на гейзере.\nЭнерговыработка: 7500.</sd_adv_powergen_adv_geothermal_generator.description>
   <sd_adv_powergen_adv_geothermal_generator_Blueprint.label>advanced geothermal generator (проект)</sd_adv_powergen_adv_geothermal_generator_Blueprint.label>
   <sd_adv_powergen_adv_geothermal_generator_Blueprint_Install.label>Высокотехнологичный геотермальный генератор (проект)</sd_adv_powergen_adv_geothermal_generator_Blueprint_Install.label>
   <sd_adv_powergen_adv_geothermal_generator_Frame.label>Высокотехнологичный геотермальный генератор (постройка)</sd_adv_powergen_adv_geothermal_generator_Frame.label>
   <!-- adv nuclear -->
   <sd_adv_powergen_nuclear_power_plant.label>Высокотехнологичная атомная электростанция</sd_adv_powergen_nuclear_power_plant.label>
-  <sd_adv_powergen_nuclear_power_plant.description>Генерирует электроэнергию из радиоактивного распада урана. Можно разместить где угодно. Энерговыработка: 20000.</sd_adv_powergen_nuclear_power_plant.description>
+  <sd_adv_powergen_nuclear_power_plant.description>Генерирует электроэнергию из радиоактивного распада урана. Можно разместить где угодно.\nЭнерговыработка: 20000.</sd_adv_powergen_nuclear_power_plant.description>
   <sd_adv_powergen_nuclear_power_plant_Blueprint.label>Высокотехнологичная атомная электростанция (проект)</sd_adv_powergen_nuclear_power_plant_Blueprint.label>
   <sd_adv_powergen_nuclear_power_plant_Blueprint_Install.label>Высокотехнологичная атомная электростанция (проект)</sd_adv_powergen_nuclear_power_plant_Blueprint_Install.label>
   <sd_adv_powergen_nuclear_power_plant_Frame.label>Высокотехнологичная атомная электростанция (постройка)</sd_adv_powergen_nuclear_power_plant_Frame.label>
+  <!-- adv water -->
+  <sd_adv_powergen_WatermillGenerator.label>Высокотехнологичный водяной генератор</sd_adv_powergen_WatermillGenerator.label>
+  <sd_adv_powergen_WatermillGenerator.description>Преобразует энергию течения воды в электрический ток. Следует размещать так, чтобы колесо находилось в водном потоке. Если колёса генераторов разместить слишком близко друг к другу, производимые ими завихрения в водном потоке наложатся друг на друга и снизят общую выработку энергии.\nЭнерговыработка: 2200</sd_adv_powergen_WatermillGenerator.description>
+  <sd_adv_powergen_WatermillGenerator_Blueprint.label>Высокотехнологичный водяной генератор (проект)</sd_adv_powergen_WatermillGenerator_Blueprint.label>
+  <sd_adv_powergen_WatermillGenerator_Blueprint_Install.label>Высокотехнологичный водяной генератор (проект)</sd_adv_powergen_WatermillGenerator_Blueprint_Install.label>
+  <sd_adv_powergen_WatermillGenerator_Frame.label>Высокотехнологичный водяной генератор (постройка)</sd_adv_powergen_WatermillGenerator_Frame.label>
 </LanguageData>
