@@ -276,12 +276,18 @@
     <thingClass>Building</thingClass>
     <graphicData>
       <texPath>sd_adv_powergen/sd_adv_powergen_watermill</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(5,6)</drawSize>
       <shadowData>
         <volume>(2.6,1,2.16)</volume>
         <offset>(-0.20,0,0)</offset>
       </shadowData>
+      <damageData>
+        <rectN>(0.1,1.2,4.75,3.25)</rectN>
+        <rectE>(1.25,0.2,3.5,4.7)</rectE>
+        <rectS>(0.2,1.2,4.7,3.25)</rectS>
+        <rectW>(1.25,0.2,3.5,4.7)</rectW>
+      </damageData>
     </graphicData>
     <castEdgeShadows>false</castEdgeShadows>
     <staticSunShadowHeight>0</staticSunShadowHeight>
