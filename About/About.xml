@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>[sd] Advanced Powergeneration (Continued)</name>
   <packageId>Mlie.SdAdvancedPowergeneration</packageId>
@@ -8,6 +8,7 @@
     <li>1.0</li>
     <li>1.1</li>
     <li>1.2</li>
+    <li>1.3</li>
   </supportedVersions>
   <modDependencies />
   <loadAfter />
@@ -32,11 +33,11 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=760088748
 
 not doing anymore updates for any rimworld mods, please feel free to update and upload the mods on steam, i dont mind.
 
-[h1]"advanced powergeneration"[/h1]
+[h1]&quot;advanced powergeneration&quot;[/h1]
 	
 a light in every corner, an extra workbench there, maybe another cooking stove - wondering where your power went?
 	
-	- a simple try to add some "late game" power supply
+	- a simple try to add some &quot;late game&quot; power supply
 	- no maintenance/refueling, just place it and get the power.
 
 [h1]Details:[/h1]
@@ -53,13 +54,13 @@ Adds advanced windturbine, advanced solar panels, advanced geothermal and advanc
 [b]research:[/b]
 - all are tech level spacer and need a higtech research bench and the multianalyzer
 
-[b]research "tree":[/b]
+[b]research &quot;tree&quot;:[/b]
 
 electricity research -&gt; advanced winturbine research
 solar research -&gt; advanced solar panels
 geothermal research -&gt; advanced geothermal research -&gt; advanced nuclear power research
 
-The research is currently using the positions after the ship research in the tree (x 13 and 14). I could not get the placement to work how i wanted it to in the vanilla tree. This might cause/is causing some strange looking connection lines in the research tree and might "conflict" with other mods. Currently a bit unsure if/how to fix that.
+The research is currently using the positions after the ship research in the tree (x 13 and 14). I could not get the placement to work how i wanted it to in the vanilla tree. This might cause/is causing some strange looking connection lines in the research tree and might &quot;conflict&quot; with other mods. Currently a bit unsure if/how to fix that.
 
 as of a16 the buildings have weight:
 adv wind: 500
@@ -80,7 +81,7 @@ calculated from the vanilla values of the current alpha over the wealth/powe val
 
 [i]Ludeon forum topic:[/i]
 https://ludeon.com/forums/index.php?topic=26276.0
-(has dropbox links,since steam don't seem to like them for soem reason -.-)
+(has dropbox links,since steam don&apos;t seem to like them for soem reason -.-)
 
 [b]Dropbox:[/b]  https://www.dropbox.com/s/5aisir6ti2poh1t/sd_adv_powergen_v1.7z?dl=0
 
@@ -193,5 +194,18 @@ https://ludeon.com/forums/index.php?topic=26276.0
 
 Original mod : [url=https://steamcommunity.com/sharedfiles/filedetails/?id=760088748][sd] advanced powergeneration[/url]
 Original Mod author : [url=https://steamcommunity.com/profiles/76561198253463663]sulusdacor[/url]
-Official Ludeon forums Link : https://ludeon.com/forums/index.php?topic=26276.0</description>
+Official Ludeon forums Link : https://ludeon.com/forums/index.php?topic=26276.0
+
+
+[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
+</description>
 </ModMetaData>
+
