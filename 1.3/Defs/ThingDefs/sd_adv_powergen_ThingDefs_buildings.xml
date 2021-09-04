@@ -85,6 +85,7 @@
         <rect>(0,0.6,4,2.8)</rect>
       </damageData>
     </graphicData>
+    <drawerType>MapMeshAndRealTime</drawerType>
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
     <pathCost>70</pathCost>
@@ -148,6 +149,7 @@
         <rect>(0.3,0,5.4,6)</rect>
       </damageData>
     </graphicData>
+    <drawerType>MapMeshAndRealTime</drawerType>
     <altitudeLayer>Building</altitudeLayer>
     <pathCost>70</pathCost>
     <passability>PassThroughOnly</passability>
@@ -216,6 +218,7 @@
         <rect>(0.3,0,5.4,6)</rect>
       </damageData>
     </graphicData>
+    <drawerType>MapMeshAndRealTime</drawerType>
     <altitudeLayer>Building</altitudeLayer>
     <pathCost>70</pathCost>
     <passability>PassThroughOnly</passability>
@@ -290,6 +293,7 @@
         <rectW>(1.25,0.2,3.5,4.7)</rectW>
       </damageData>
     </graphicData>
+    <drawerType>MapMeshAndRealTime</drawerType>
     <castEdgeShadows>false</castEdgeShadows>
     <staticSunShadowHeight>0</staticSunShadowHeight>
     <altitudeLayer>Building</altitudeLayer>
