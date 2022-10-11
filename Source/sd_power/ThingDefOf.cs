@@ -1,11 +1,10 @@
 ﻿using RimWorld;
 using Verse;
 
-namespace sd_adv_powergen
+namespace sd_adv_powergen;
+
+[DefOf]
+public static class ThingDefOf
 {
-    [DefOf]
-    public static class ThingDefOf
-    {
-        public static ThingDef sd_adv_powergen_WatermillGenerator;
-    }
+    public static ThingDef sd_adv_powergen_WatermillGenerator;
 }
