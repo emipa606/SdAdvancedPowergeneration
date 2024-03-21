@@ -3,7 +3,7 @@
  * User: sulusdacor
  * Date: 17.11.2016
  * Time: 10:32
- * 
+ *
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
 
@@ -69,7 +69,7 @@ public class sd_adv_powergen_CompAdvPowerPlantSolar : CompPowerPlant
         var r = default(GenDraw.FillableBarRequest);
         r.center = parent.DrawPos + (Vector3.up * 0.1f);
         r.size = sd_adv_powergen_BarSize;
-        r.fillPercent = PowerOutput / 3400f;
+        r.fillPercent = PowerOutput / sd_adv_powergen_FullSunPower;
         r.filledMat = sd_adv_powergen_PowerPlantSolarBarFilledMat;
         r.unfilledMat = sd_adv_powergen_PowerPlantSolarBarUnfilledMat;
         r.margin = 0.15f;

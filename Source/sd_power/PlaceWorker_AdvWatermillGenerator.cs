@@ -9,7 +9,7 @@ namespace sd_adv_powergen;
 
 public class PlaceWorker_AdvWatermillGenerator : PlaceWorker
 {
-    private static readonly List<Thing> advwaterMills = new List<Thing>();
+    private static readonly List<Thing> advwaterMills = [];
 
     public override AcceptanceReport AllowsPlacing(BuildableDef checkingDef, IntVec3 loc, Rot4 rot, Map map,
         Thing thingToIgnore = null, Thing thing = null)
