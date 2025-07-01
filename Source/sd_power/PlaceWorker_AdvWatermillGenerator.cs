@@ -28,7 +28,7 @@ public class PlaceWorker_AdvWatermillGenerator : PlaceWorker
             return result;
         }
 
-        if (!WaterCellsPresent(loc, rot, map))
+        if (!waterCellsPresent(loc, rot, map))
         {
             return new AcceptanceReport("MustBeOnMovingWater".Translate());
         }
@@ -36,7 +36,7 @@ public class PlaceWorker_AdvWatermillGenerator : PlaceWorker
         return true;
     }
 
-    private bool WaterCellsPresent(IntVec3 loc, Rot4 rot, Map map)
+    private static bool waterCellsPresent(IntVec3 loc, Rot4 rot, Map map)
     {
         foreach (var current in CompPowerPlantWater.WaterCells(loc, rot))
         {
@@ -52,7 +52,7 @@ public class PlaceWorker_AdvWatermillGenerator : PlaceWorker
     public override void DrawGhost(ThingDef def, IntVec3 loc, Rot4 rot, Color ghostCol, Thing thing = null)
     {
         GenDraw.DrawFieldEdges(CompPowerPlantWater.GroundCells(loc, rot).ToList(), Color.white);
-        var color = !WaterCellsPresent(loc, rot, Find.CurrentMap)
+        var color = !waterCellsPresent(loc, rot, Find.CurrentMap)
             ? Designator_Place.CannotPlaceColor.ToOpaque()
             : Designator_Place.CanPlaceColor.ToOpaque();
         GenDraw.DrawFieldEdges(CompPowerPlantWater.WaterCells(loc, rot).ToList(), color);

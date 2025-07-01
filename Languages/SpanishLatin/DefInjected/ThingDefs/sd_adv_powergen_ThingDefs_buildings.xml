@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <sd_adv_powergen_adv_wind_turbine.label>aeroturbina avanzada</sd_adv_powergen_adv_wind_turbine.label>
   <sd_adv_powergen_adv_wind_turbine.description>Un generador de electricidad accionado por el viento. Para conseguir un flujo de aire óptimo necesita un gran espacio libre enfrente y atrás.\nSalida de energía: 6000 W (máximo).</sd_adv_powergen_adv_wind_turbine.description>

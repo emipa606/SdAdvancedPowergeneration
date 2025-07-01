@@ -1,6 +1,7 @@
 # [[sd] Advanced Powergeneration (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2079579039)
 
 ![Image](https://i.imgur.com/buuPQel.png)
+
 Update of sulusdacors mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=760088748
 
@@ -182,22 +183,23 @@ Ludeon forum topic:
 https://ludeon.com/forums/index.php?topic=26276.0
 
 
-Original mod : [https://steamcommunity.com/sharedfiles/filedetails/?id=760088748][sd]( advanced powergeneration)
-Original Mod author : [https://steamcommunity.com/profiles/76561198253463663](sulusdacor)
+Original mod : [[sd] advanced powergeneration](https://steamcommunity.com/sharedfiles/filedetails/?id=760088748)
+Original Mod author : [sulusdacor](https://steamcommunity.com/profiles/76561198253463663)
 Official Ludeon forums Link : https://ludeon.com/forums/index.php?topic=26276.0
 
 
 ![Image](https://i.imgur.com/PwoNOj4.png)
 
 
+
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using [https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404](Uploader) and command Ctrl+F12
+-  Post your error-log using [HugsLib](https://steamcommunity.com/workshop/filedetails/?id=818773962) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
--  Use [https://github.com/RimSort/RimSort/releases/latest](RimSort) to sort your mods
+-  Use [RimSort](https://github.com/RimSort/RimSort/releases/latest) to sort your mods
 
+ 
 
-
-[https://steamcommunity.com/sharedfiles/filedetails/changelog/2079579039]![Image]((https://img.shields.io/github/v/release/emipa606/SdAdvancedPowergeneration?label=latest%20version&style=plastic&color=9f1111&labelColor=black))
+[![Image](https://img.shields.io/github/v/release/emipa606/SdAdvancedPowergeneration?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2079579039) | tags: researchable power options

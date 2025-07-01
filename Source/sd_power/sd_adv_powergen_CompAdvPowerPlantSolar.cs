@@ -33,7 +33,7 @@ public class sd_adv_powergen_CompAdvPowerPlantSolar : CompPowerPlant
 
     private const float sd_adv_powergen_NightPower = 0f;
 
-    private static readonly Vector2 sd_adv_powergen_BarSize = new Vector2(2.3f, 0.14f);
+    private static readonly Vector2 sd_adv_powergen_BarSize = new(2.3f, 0.14f);
 
     private static readonly Material sd_adv_powergen_PowerPlantSolarBarFilledMat =
         SolidColorMaterials.SimpleSolidColorMaterial(new Color(0.5f, 0.475f, 0.1f));
