@@ -12,10 +12,11 @@
     <li>1.4</li>
     <li>1.5</li>
     <li>1.6</li>
+    <li>1.7</li>
   </supportedVersions>
   <modDependencies />
   <loadAfter />
-  <description>[img]https://i.imgur.com/buuPQel.png[/img]
+  <description>[img]https://img.litet.net/logos/Info.png[/img]
 Update of sulusdacors mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=760088748
 
@@ -23,20 +24,20 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=760088748
   https://steamcommunity.com/workshop/filedetails/?id=2032409628
   Made by Meltup
 
-[img]https://i.imgur.com/pufA0kM.png[/img]
+[img]https://img.litet.net/logos/Notice.png[/img]
 
 [table]
 	[tr]
-		[td][url=https://dsc.gg/mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
-		[td][url=https://github.com/emipa606/SdAdvancedPowergeneration][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+		[td][url=https://discord.gg/h5TY6DA][img]https://img.litet.net/logos/Discord.png[/img][/url][/td]
+		[td][url=https://github.com/emipa606/SdAdvancedPowergeneration][img]https://img.litet.net/logos/Github.png[/img][/url][/td]
     [/tr]
     [tr]
-        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
-        [td][img]https://i.imgur.com/Be8E2qJ.png[/img][/td]
+        [td][img]https://img.litet.net/logos/SafeToAdd.png[/img][/td]
+        [td][img]https://img.litet.net/logos/RemoveMayWork.png[/img][/td]
     [/tr]
 [/table]
 	
-[img]https://i.imgur.com/Z4GOv8H.png[/img]
+[img]https://img.litet.net/logos/OriginalDescription.png[/img]
 
 not doing anymore updates for any rimworld mods, please feel free to update and upload the mods on steam, i dont mind.
 
@@ -96,125 +97,22 @@ https://ludeon.com/forums/index.php?topic=26276.0
 
 source code for modders: https://www.dropbox.com/s/qdav6d72msfclr2/sd_adv_powergen_v1_source.7z?dl=0
 
-Dropbox link to folder with old mods in forum topic for the mod.
-Changelog in forumtopic or about folder of mod.
-
-[b]「advanced powergeneration」[/b]
-
-全てのコーナーに照明を取り付けて作業台を取り付けたら、電機コンロの電源が切れてた...なんて事ありませんか？
-
-1) シンプルに「もっと後の時代」の発電機を追加してみました。
-2) 正しい場所に設置すれば整備や燃料の追加を必要としません。
-
-[h1]詳細:[/h1]
-
-改良された風力発電機、太陽光発電機、地熱発電所および原子力発電所を追加します。建設する前にすべての研究を終わらせる必要があります。これらの研究はバニラの研究（電気/太陽/地熱）に依存しており、風力や地熱の配置できる条件がバニラと同じように適用されます。
-
-[h1]電力の出力:[/h1]
-
-[table]
-    [tr]
-        [th]発電機の名前[/th]
-        [th]最大出力(W)[/th]
-        [th]注記[/th]
-    [/tr]
-    [tr]
-        [td]風力発電機(改良型)[/td]
-        [td]6000[/td]
-        [th]バニラと比較して2倍の発電量[/th]
-    [/tr]
-    [tr]
-        [td]太陽光発電(改良型)[/td]
-        [td]3400[/td]
-        [th]バニラと比較して2倍の発電量[/th]
-    [/tr]
-    [tr]
-        [td]地熱発電(改良型)[/td]
-        [td]7500[/td]
-        [th]-[/th]
-    [/tr]
-    [tr]
-        [td]原子力発電[/td]
-        [td]20000[/td]
-        [th]-[/th]
-    [tr]
-        [td]水力発電(改良型)[/td]
-        [td]2200[/td]
-    [/tr]
-    [/tr]
-[/table]
-
-
-[h1]研究:[/h1]
-すべて技術レベルは宇宙時代であり、ハイテク研究設備とマルチアナライザが必要です
-
-[h1]研究ツリー:[/h1]
-
-「改良風力発電機」の研究 前提条件：「電気工学基礎」の研究が必要
-「改良太陽光発電」の研究 前提条件：「太陽光発電」の研究が必要
-「改良地熱発電」の研究 前提条件：「地熱発電」の研究が必要
-「原子力発電」の研究 前提条件：「改良地熱発電」の研究が必要
-
-
-改良された発電機の研究は、現在、宇宙船研究の後の位置を使用しています（13行目と14行目）。私はバニラの研究ツリーの中で、ベストな配置を設定できませんでした。これは、研究ツリー内で繋がりが変なツリーラインが発生している可能性があり、他のModと場所が「競合する」可能性があります。現在のところ、それを修正するかどうかはわかりません。
-
-[h1]Alpha 16 時点で建物は持つ重量：[/h1]
-(翻訳者注：発電機が襲撃者によって持ち去られる危険性があります)
-
-[table]
-    [tr]
-        [th]発電機の名前[/th]
-        [th]重量[/th]
-    [/tr]
-    [tr]
-        [td]風力発電機(改良型)[/td]
-        [td]500[/td]
-    [/tr]
-    [tr]
-        [td]太陽光発電(改良型)[/td]
-        [td]450[/td]
-    [/tr]
-    [tr]
-        [td]地熱発電(改良型)[/td]
-        [td]1000[/td]
-    [/tr]
-    [tr]
-        [td]原子力発電[/td]
-        [td]1250[/td]
-    [/tr]
-    [tr]
-        [td]水力発電(改良型)[/td]
-        [td]1000[/td]
-    [/tr]
-[/table]
-
-[h1]建設コストと富の評価：[/h1]
-現在はバニラの値から価値や襲撃パワー計算値が自動的に計算されます。dropboxフォルダにはstatoff + calcというopenofficeのテーブルがあります。
-
-[h1]翻訳:[/h1]
-英語、ドイツ語、簡体中国語 (WishingLaws ありがとう)
-
-DropboxまたはSteamworkshopの為のダウンロードリンクはludeonフォーラムスレッドのリンクで見つけられるかもしれない。
-Ludeon forum topic:
-https://ludeon.com/forums/index.php?topic=26276.0
-
-
 Original mod : [url=https://steamcommunity.com/sharedfiles/filedetails/?id=760088748][sd] advanced powergeneration[/url]
 Original Mod author : [url=https://steamcommunity.com/profiles/76561198253463663]sulusdacor[/url]
 Official Ludeon forums Link : https://ludeon.com/forums/index.php?topic=26276.0
 
 
-[img]https://i.imgur.com/PwoNOj4.png[/img]
+[img]https://img.litet.net/logos/ReportingIssues.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
-[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader[/url] and command Ctrl+F12
+[*] Always post your log using the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Log Uploader[/url]
 [*] For best support, please use the Discord-channel for error-reporting.
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
 [/list] 
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2079579039][img]https://img.shields.io/github/v/release/emipa606/SdAdvancedPowergeneration?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags: researchable power options</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.6.0</modVersion>
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2079579039][img]https://img.shields.io/github/v/release/emipa606/SdAdvancedPowergeneration?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | solar panels, wind turbine</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.7.0</modVersion>
 </ModMetaData>

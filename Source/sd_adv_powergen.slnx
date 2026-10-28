@@ -3,4 +3,17 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="sd_power/sd_adv_powergen.csproj" />
+  <Folder Name="/.github/">
+    <File Path="../.github/copilot-instructions.md" />
+  </Folder>
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ResearchProjectDefs/">
+    <File Path="../1.7/Defs/ResearchProjectDefs/sd_adv_powergen_ResearchProjectDefs.xml" />
+    <File Path="../1.7/Defs/ResearchProjectDefs/sd_adv_powergen_ResearchTabs.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ThingDefs/">
+    <File Path="../1.7/Defs/ThingDefs/sd_adv_powergen_ThingDefs_buildings.xml" />
+  </Folder>
 </Solution>

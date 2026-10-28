@@ -38,26 +38,19 @@ public class PlaceWorker_AdvWatermillGenerator : PlaceWorker
 
     private static bool waterCellsPresent(IntVec3 loc, Rot4 rot, Map map)
     {
-        foreach (var current in CompPowerPlantWater.WaterCells(loc, rot))
-        {
-            if (!map.terrainGrid.TerrainAt(current).affordances.Contains(TerrainAffordanceDefOf.MovingFluid))
-            {
-                return false;
-            }
-        }
-
-        return true;
+        return CompPowerPlantWater.WaterCells(loc, rot).Any(location =>
+            map.terrainGrid.TerrainAt(location).affordances.Contains(TerrainAffordanceDefOf.MovingFluid));
     }
 
-    public override void DrawGhost(ThingDef def, IntVec3 loc, Rot4 rot, Color ghostCol, Thing thing = null)
+    public override void DrawGhost(ThingDef def, IntVec3 center, Rot4 rot, Color ghostCol, Thing thing = null)
     {
-        GenDraw.DrawFieldEdges(CompPowerPlantWater.GroundCells(loc, rot).ToList(), Color.white);
-        var color = !waterCellsPresent(loc, rot, Find.CurrentMap)
+        GenDraw.DrawFieldEdges(CompPowerPlantWater.GroundCells(center, rot).ToList(), Color.white);
+        var color = !waterCellsPresent(center, rot, Find.CurrentMap)
             ? Designator_Place.CannotPlaceColor.ToOpaque()
             : Designator_Place.CanPlaceColor.ToOpaque();
-        GenDraw.DrawFieldEdges(CompPowerPlantWater.WaterCells(loc, rot).ToList(), color);
+        GenDraw.DrawFieldEdges(CompPowerPlantWater.WaterCells(center, rot).ToList(), color);
         var overlaps = false;
-        var cellRect = CompPowerPlantWater.WaterUseRect(loc, rot);
+        var cellRect = CompPowerPlantWater.WaterUseRect(center, rot);
         advwaterMills.AddRange(
             Find.CurrentMap.listerBuildings.AllBuildingsColonistOfDef(ThingDefOf
                 .sd_adv_powergen_WatermillGenerator));
@@ -81,7 +74,7 @@ public class PlaceWorker_AdvWatermillGenerator : PlaceWorker
         var color2 = !overlaps ? Designator_Place.CanPlaceColor.ToOpaque() : new Color(1f, 0.6f, 0f);
         if (!overlaps || Time.realtimeSinceStartup % 0.4f < 0.2f)
         {
-            GenDraw.DrawFieldEdges(CompPowerPlantWater.WaterUseCells(loc, rot).ToList(), color2);
+            GenDraw.DrawFieldEdges(CompPowerPlantWater.WaterUseCells(center, rot).ToList(), color2);
         }
     }
 

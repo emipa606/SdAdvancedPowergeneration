@@ -1,6 +1,6 @@
 # [[sd] Advanced Powergeneration (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2079579039)
 
-![Image](https://i.imgur.com/buuPQel.png)
+![Image](https://img.litet.net/logos/Info.png)
 
 Update of sulusdacors mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=760088748
@@ -9,9 +9,9 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=760088748
   https://steamcommunity.com/workshop/filedetails/?id=2032409628
   Made by Meltup
 
-![Image](https://i.imgur.com/pufA0kM.png)
+![Image](https://img.litet.net/logos/Notice.png)
 	
-![Image](https://i.imgur.com/Z4GOv8H.png)
+![Image](https://img.litet.net/logos/OriginalDescription.png)
 
 not doing anymore updates for any rimworld mods, please feel free to update and upload the mods on steam, i dont mind.
 
@@ -73,128 +73,18 @@ https://ludeon.com/forums/index.php?topic=26276.0
 
 source code for modders: https://www.dropbox.com/s/qdav6d72msfclr2/sd_adv_powergen_v1_source.7z?dl=0
 
-Dropbox link to folder with old mods in forum topic for the mod.
-Changelog in forumtopic or about folder of mod.
-
-**「advanced powergeneration」**
-
-全てのコーナーに照明を取り付けて作業台を取り付けたら、電機コンロの電源が切れてた...なんて事ありませんか？
-
-1) シンプルに「もっと後の時代」の発電機を追加してみました。
-2) 正しい場所に設置すれば整備や燃料の追加を必要としません。
-
-# 詳細:
-
-
-改良された風力発電機、太陽光発電機、地熱発電所および原子力発電所を追加します。建設する前にすべての研究を終わらせる必要があります。これらの研究はバニラの研究（電気/太陽/地熱）に依存しており、風力や地熱の配置できる条件がバニラと同じように適用されます。
-
-# 電力の出力:
-
-
-[table]
-    [tr]
-        [th]発電機の名前[/th]
-        [th]最大出力(W)[/th]
-        [th]注記[/th]
-    [/tr]
-    [tr]
-        [td]風力発電機(改良型)[/td]
-        [td]6000[/td]
-        [th]バニラと比較して2倍の発電量[/th]
-    [/tr]
-    [tr]
-        [td]太陽光発電(改良型)[/td]
-        [td]3400[/td]
-        [th]バニラと比較して2倍の発電量[/th]
-    [/tr]
-    [tr]
-        [td]地熱発電(改良型)[/td]
-        [td]7500[/td]
-        [th]-[/th]
-    [/tr]
-    [tr]
-        [td]原子力発電[/td]
-        [td]20000[/td]
-        [th]-[/th]
-    [tr]
-        [td]水力発電(改良型)[/td]
-        [td]2200[/td]
-    [/tr]
-    [/tr]
-[/table]
-
-
-# 研究:
-
-すべて技術レベルは宇宙時代であり、ハイテク研究設備とマルチアナライザが必要です
-
-# 研究ツリー:
-
-
-「改良風力発電機」の研究 前提条件：「電気工学基礎」の研究が必要
-「改良太陽光発電」の研究 前提条件：「太陽光発電」の研究が必要
-「改良地熱発電」の研究 前提条件：「地熱発電」の研究が必要
-「原子力発電」の研究 前提条件：「改良地熱発電」の研究が必要
-
-
-改良された発電機の研究は、現在、宇宙船研究の後の位置を使用しています（13行目と14行目）。私はバニラの研究ツリーの中で、ベストな配置を設定できませんでした。これは、研究ツリー内で繋がりが変なツリーラインが発生している可能性があり、他のModと場所が「競合する」可能性があります。現在のところ、それを修正するかどうかはわかりません。
-
-# Alpha 16 時点で建物は持つ重量：
-
-(翻訳者注：発電機が襲撃者によって持ち去られる危険性があります)
-
-[table]
-    [tr]
-        [th]発電機の名前[/th]
-        [th]重量[/th]
-    [/tr]
-    [tr]
-        [td]風力発電機(改良型)[/td]
-        [td]500[/td]
-    [/tr]
-    [tr]
-        [td]太陽光発電(改良型)[/td]
-        [td]450[/td]
-    [/tr]
-    [tr]
-        [td]地熱発電(改良型)[/td]
-        [td]1000[/td]
-    [/tr]
-    [tr]
-        [td]原子力発電[/td]
-        [td]1250[/td]
-    [/tr]
-    [tr]
-        [td]水力発電(改良型)[/td]
-        [td]1000[/td]
-    [/tr]
-[/table]
-
-# 建設コストと富の評価：
-
-現在はバニラの値から価値や襲撃パワー計算値が自動的に計算されます。dropboxフォルダにはstatoff + calcというopenofficeのテーブルがあります。
-
-# 翻訳:
-
-英語、ドイツ語、簡体中国語 (WishingLaws ありがとう)
-
-DropboxまたはSteamworkshopの為のダウンロードリンクはludeonフォーラムスレッドのリンクで見つけられるかもしれない。
-Ludeon forum topic:
-https://ludeon.com/forums/index.php?topic=26276.0
-
-
 Original mod : [[sd] advanced powergeneration](https://steamcommunity.com/sharedfiles/filedetails/?id=760088748)
 Original Mod author : [sulusdacor](https://steamcommunity.com/profiles/76561198253463663)
 Official Ludeon forums Link : https://ludeon.com/forums/index.php?topic=26276.0
 
 
-![Image](https://i.imgur.com/PwoNOj4.png)
+![Image](https://img.litet.net/logos/ReportingIssues.png)
 
 
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using [HugsLib](https://steamcommunity.com/workshop/filedetails/?id=818773962) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
+-  Always post your log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404)
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
@@ -202,4 +92,4 @@ Official Ludeon forums Link : https://ludeon.com/forums/index.php?topic=26276.0
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/SdAdvancedPowergeneration?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2079579039) | tags: researchable power options
+[![Image](https://img.shields.io/github/v/release/emipa606/SdAdvancedPowergeneration?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2079579039) | solar panels, wind turbine
